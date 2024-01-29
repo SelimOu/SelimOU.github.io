@@ -1,0 +1,422 @@
+ *{
+   
+ }
+#bug{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background-color: white;
+}
+
+.exo1{
+    background-color: lightgreen;
+    height: 150px;
+    width: 400px;
+    display: inline block;
+    position: static; 
+}
+
+.exo1 .image0{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+}
+ 
+.exo1 .image0 h4{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 16px;
+ }
+
+.exo1 .image1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: static; 
+}
+
+.exo1 .image2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: static;
+}
+
+.exo1 .image3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: static;
+}
+
+.exo2{
+    
+    height: 150px;
+    width: 400px;
+    margin-bottom: 50px;
+    display: inline block;
+    position: relative; 
+}
+
+.exo2 .image0{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}
+ 
+ .exo2 .image0 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 16px;
+ }
+
+.exo2 .image1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+}
+
+.exo2 .image2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.exo2 .image3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+}
+
+.exo3{
+    height: 200px;
+    width: 400px;
+    display: inline block;
+    position: relative;
+    background-color: rgb(224, 141, 141); 
+}
+
+.exo3 .image0{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 200px; 
+}
+ 
+ .exo3 .image0 h3{
+    position: relative;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: green;
+    font-size: 16px;
+}
+
+.exo3 .image1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.exo3 .image2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+}
+.exo3 .image3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+}
+
+.exo3 .image4{
+    top: 100px;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+}
+
+.exo3 .image4 .carre1{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    display: inline-block;
+    top: 33px;
+}
+
+.exo3 .image4 .carre2{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    display: inline-block;
+    left:35px;
+    top: 33px;
+}
+
+.exo3 .image4 .carre3{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    display: inline-block;
+    left:70px;
+    top: 33px;
+}
+
+.exo4{
+    height: 200px;
+    width: 400px;
+    display: inline block;
+    position: relative;
+}
+.exo4 .image0{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}
+ 
+ .exo4 .image5 h3{
+    position: relative;
+    top: 40%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    z-index: 6;
+    font-size: 16px;
+ }
+
+.exo4 .image1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+    display: inline-block;
+    position: absolute;
+}
+
+.exo4 .image2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.exo4 .image3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left:300px;
+}
+
+.exo4 .image4{
+    top: 100px;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    z-index: 3;
+    background-color: rgba(0, 128, 0, 0.473);
+    border-radius: 50px;
+}
+
+.exo4 .image5{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.459);
+    border-radius: 50px;
+    bottom: 50px;
+    right: 25px;
+    z-index: 4;
+}
+
+.exo4 .image6{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.452);
+    border-radius: 50px;
+    bottom: 50px;
+    left: 50px;
+    z-index: 2;
+    
+}
+ .exo4 .image7{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left:170px;
+    font-size: 12px;
+    color: red;
+}
+
+ol{
+    list-style-type: none;
+}
+
+ .exo5{
+    height: 750px;
+    width: 1000px;
+    display: inline block;
+    position: relative; 
+    margin-top: 200px;
+    background-color: white;
+ }
+ 
+ .exo5 p{
+    margin: 20px;
+    font-size: 16px;
+    text-align: left;
+ }
+
+ .exo5 .texte1{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    background-color: red;
+    display: inline-block;
+    left: 750px;
+    color: white;
+    text-align: center;
+ }
+
+ .exo5 .texte1 h3{
+    font-size: 25px;
+ }
+
+.exo5 .texte1 h2{
+    font-size: 32px;
+}
+
+ .exo5 .texte1 p{
+    color: rgb(204, 201, 201);
+    font-size: 16px;
+ }
+
+ .exo5 .texte2{
+    height: 450px;
+    width: 250px;
+    position: absolute;
+    background-color: blue;
+    display: inline-block;
+    left: 750px;
+    top: 300px;
+    color: white;
+ }
+ 
+ .exo5 .texte3{
+    height: 750px;
+    width: 250px;
+    position: absolute;
+    background-color: rgba(21, 21, 212, 0.685);
+    display: inline-block;
+    left: 500px;
+    z-index: 1;
+    border-radius: 250px 250px 0 0;
+    z-index: 1;
+ }
+ .exo5 .texte3 p{
+    color: rgb(201, 201, 201);
+    z-index: 4;
+    margin-top: 100px;
+ }
+
+ .exo5 .carre1{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    position: absolute;
+    display: inline-block;
+    left: 250px;
+    top: 500px;
+    z-index: 1;
+ }
+
+ .exo5 .cercle1{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(255, 0, 157, 0.411);
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    left: 375px;
+    top: 250px;
+ }
+
+ .exo5 .cercle2{
+    height: 250px;
+    width: 250px;
+    background-color:rgba(255, 0, 0, 0.411) ;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    left: 250px;
+    top: 500px;
+    z-index: 2;
+ }
+
+ .exo5 .cercle3{
+    height: 250px;
+    width: 250px;
+    background-color:red ;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    border: 20px solid;
+    border-color: white;
+    z-index: 5;
+    left: 100px;
+    top: 340px;
+
+ }

@@ -1,0 +1,139 @@
+section{
+    height: 90vh;
+    border:  solid 4px black;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+h1{
+    font-size: 250%;
+}
+#exo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.boxbleu{
+background-color: lightblue;
+width: 20%;
+height: 20%;
+}
+
+.boxorange{
+    background-color: orange;
+    width:20%;
+    height: 20%;
+}
+
+.exo2{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.exo3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.boxbleu2{
+    background-color: lightblue;
+    width: 20%;
+    height: 20%;
+}
+
+.exo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.exo5{
+    display: flex;
+    gap: 1%;
+    align-items: end;
+    justify-content: center;
+}
+
+.exo6{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.exo6 .boxbleu{
+    display: flex;
+    align-self: flex-end;
+}
+
+.exo6 .boxorange{
+    display: flex;
+    align-self: center;
+}
+
+.exo7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+
+}
+
+.box1{
+    background-color: lightblue;
+    width: 20%;
+    height: 10%;
+}
+
+.box2{
+    background-color: orange;
+    width: 85%;
+    height: 50%;
+    display: flex;
+    Justify-content: flex-end;
+    align-items: center;
+
+}
+
+.box3{
+    background-color: grey;
+    height: 80%;
+    width: 50%;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    
+
+}
+.exo7 .box1 h2{
+    padding: 5%;
+    text-align: center;
+}
+
+.exo7 .box2 p{
+    text-align: left; 
+    
+}
+
+.exo7 .box2 h3{
+    font-size: 150%;
+}
+
+.test{
+    margin-left: 5%;
+}
+
+.exo7 .box3 h3{
+    padding: 2%;
+}
+
+.exo7 .box3 p{
+padding: 5%;
+text-align: center;
+}

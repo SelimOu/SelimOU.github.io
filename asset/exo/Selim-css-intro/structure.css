@@ -1,0 +1,77 @@
+body{
+    margin: 20px;
+    background-color: lightgray;
+    max-width: 1600px;
+    font-size: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.textea{
+    color: red;
+    text-decoration: underline;
+}
+.texteb{
+    color: red;
+}
+.table1{
+    width: 100%;
+}
+.table1 th{
+    color: white;
+    background-color: black;
+}
+.table1 tr:nth-child(even) {
+    background-color: white;
+}
+.table1 tr:nth-child(4){
+    background-color: gray;
+}
+
+.textec{
+    color: red;
+}
+.test{
+    border: 2px solid #ff0000;
+    color: white;
+    background: black;
+    text-align: center;
+}
+.bordure {
+    border: 2px dotted #0400ff;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(190, 185, 185);
+    margin-left: 40px;
+}
+.gauche{
+    text-align: left;
+    width: 48%;
+    display: table-cell;
+    
+
+}
+.droit{
+    text-align: right;
+    display: table-cell;
+    width: 48%;
+
+}
+
+.class1 {
+align-content: right;
+}
+.citation{
+    text-align: center;
+}
+.image2{
+    display: block;
+  text-align: center;
+}
+.formulaire{
+    
+    
+}
