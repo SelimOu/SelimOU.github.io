@@ -45,6 +45,7 @@ header {
 #logo {
     height: 40vh;
     justify-content: left;
+    animation: rotateAnimation 4s infinite linear
 }
 
 #hd1 {
@@ -163,6 +164,16 @@ footer {
 
 }
 
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 @media screen and (max-width:998px) {
     #pres {
         grid-template-columns: 1fr;
@@ -174,7 +185,8 @@ footer {
     }
 
     .img1 {
-        height: 80%;
+        height: 60vh;
+        padding-top: 6vh;
     }
 
     footer {
@@ -190,6 +202,7 @@ footer {
 
     .images {
         width: 100%;
+        height: 40vh;
     }
 
     #logo {
